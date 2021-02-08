@@ -1,0 +1,31 @@
+<div *ngIf="isScreenLarge()" class="group">
+    <div class="index">
+      <span>{{ index }}</span>
+    </div>
+    <div>
+      <img class="country-image" src={{country.src}} [alt]="country.name">
+    </div>
+    <div class="country-name">
+      <span>{{ country.name }}</span>
+    </div>
+    <div class="epi-index">
+      <span>{{ country.epiIndex }}</span>
+    </div>
+  </div>
+  <div *ngIf="!isScreenLarge()" class="group-small">
+    <div class="title-group-small">
+      <div class="index-small">
+        <span style="margin-top: 10px;">{{ index }}</span>
+      </div>
+      <div class="country-name-small">
+        <span>{{ country.name }}</span>
+      </div>
+    </div>
+    <div>
+      <img class="country-image-small" src={{country.src}} [alt]="country.name">
+    </div>
+    
+    <div class="epi-index-small">
+      <span style="margin-top: 10px;">{{ country.epiIndex }}</span>
+    </div>
+  </div>

@@ -1,0 +1,75 @@
+:host {
+  height: 30px;
+  text-align: right;
+  padding-top: 4px;
+  color: #888;
+}
+
+div {
+  display: inline;
+  margin-left: 34px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-image {
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+
+.flag-image {
+  width: 22px;
+  height: 16px;
+  vertical-align: middle;
+  /*margin-right: -16px;*/
+}
+
+span.glyphicon {
+  margin-left: 4px;
+  font-size: 11px;
+}
+
+.sign-out {
+  margin-left: 12px;
+  cursor: pointer;
+}
+.sshow {
+    display: block;
+}
+.hhidden {
+    display: none;
+}
+/* .mmodal {
+    z-index: 1000;
+    position: fixed;
+    top: 30px;
+    bottom: 0;
+    left: 300px;
+    width: 500px;
+}
+.mmodal-body {
+    background: #fff;
+    margin: 40px;
+    padding: 20px;
+} */
+.mmodal-background {
+    z-index: 1000;
+    right: 1%;
+    top: 6%;
+    height: 120px;
+    width: 116px;
+    margin-left: 0px;
+    padding:0px;
+    position: absolute;
+    background-color: lightgrey;
+}
+.modal-config {
+    white-space: pre;
+    margin: 0px;
+    float: left;
+    height: 24px
+}

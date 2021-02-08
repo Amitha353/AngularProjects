@@ -1,0 +1,47 @@
+<div *ngIf="isScreenLarge()">
+  <a
+    *ngFor="let icon of frameworkConfigService.socialIcons"
+    [href]="icon.link"
+    [title]="icon.alt"
+  >
+    <img class="top-image" [src]="icon.imageFile" [alt]="icon.alt" />
+  </a>
+
+  <div *ngIf="frameworkConfigService.showLanguageSelector">
+    <img class="flag-image" src="assets/barbados-flag-bw.png" alt="Flag" />
+    <span> PLANETSAFE</span><i class="chevron down icon"></i>
+  </div>
+
+  <!-- <div *ngIf="frameworkConfigService.showUserControls">
+    <span>SIGN IN</span>
+</div> -->
+  <div *ngIf="frameworkConfigService.showUserControls">
+    <span>Amitha Raju</span>
+    <span class="sign-out" (click)="signOut()"> SIGN OUT</span>
+  </div>
+</div>
+<div *ngIf="!isScreenLarge()">
+  <div class="mmodal-background">
+    <div class="modal-config" style="padding-left: 16px;">
+      <a *ngFor="let icon of frameworkConfigService.socialIcons" [href]="icon.link" [title]="icon.alt">
+        <img class="top-image" [src]="icon.imageFile" [alt]="icon.alt" />
+      </a>
+    </div>
+    <div class="modal-config">
+      <div *ngIf="frameworkConfigService.showLanguageSelector" style="margin-left: 8px;">
+        <img class="flag-image" src="assets/barbados-flag-bw.png" alt="Flag" />
+        <span style="font-size: 10px"> PLANETSAFE</span><i style="font-size: 10px" class="chevron down icon"></i>
+      </div>
+    </div>
+    <div class="modal-config">
+      <div style="margin-left: 15px" *ngIf="frameworkConfigService.showUserControls">
+        <span style="font-size: 10px">Amitha Raju</span>
+      </div>
+    </div>
+    <div class="modal-config">
+      <div style="margin-left: 0px" frameworkConfigService.showUserControls>
+        <span style="font-size: 10px" class="sign-out" (click)="signOut()">SIGN OUT</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="menu-item"
+     [ngClass]="{'vertical-menu': menuService.isVertical, 'router-link-active': isActiveRoute }"
+     >
+  <span class="glyphicon {{ item.icon }}"></span>
+  <span>{{ item.text.toUpperCase() }}</span>
+
+  <span *ngIf="item.submenu && !parentIsPopup && !menuService.isVertical" ><i class="chevron down icon"></i></span>
+  <span *ngIf="item.submenu && parentIsPopup && !menuService.isVertical"><i class="chevron right icon"></i></span>
+  <span *ngIf="item.submenu && menuService.isVertical && !(mouseInPopup || mouseInItem)"><i class="chevron left icon"></i></span> 
+  <span *ngIf="item.submenu && menuService.isVertical && (mouseInPopup || mouseInItem)"><i class="chevron down icon"></i></span> 
+
+</div>
+<fw-popup-menu
+    *ngIf="mouseInPopup || mouseInItem" 
+    [menu]='item.submenu'
+    [ngClass]="{'vertical-menu': menuService.isVertical}"
+    (mouseleave)="onPopupMouseLeave($event)" 
+    (mouseenter)="onPopupMouseEnter($event)"
+    [style.left.px]="popupLeft"
+    [style.top.px]="popupTop"
+    @visibilityChanged>
+</fw-popup-menu>

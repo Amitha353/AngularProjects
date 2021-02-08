@@ -1,0 +1,5 @@
+<fw-panel *ngFor="let touristSpot of allToursistSpots; let i=index">
+    <div class="projected-title">{{choosenCountry}}</div>
+    <app-country-specific-panel [country]="touristSpot" [index]="i+1">
+    </app-country-specific-panel>
+  </fw-panel>
