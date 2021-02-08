@@ -1,0 +1,194 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    /* padding-top: 5px; */
+  }
+  .splitright {
+    height: 100%;
+    width: 75%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+  }
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color:#222831;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color:black;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  /* .centered img {
+    width: 140px;
+    border-radius: 50%;
+  } */
+  .textdisplay {
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .tab {
+    margin: 5px;
+    padding: 4px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #28df99;
+    border-color:#28df99;
+    color: white;
+}
+
+/* .info {
+    width: 75%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding-left: 25px;
+} */
+
+/* .extremeright {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+
+.portrait {
+    height: 85%;
+    width: 85%;
+    margin: 6px;
+    position: relative;
+    border-radius: 50%;
+}
+  /* #mainContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  #topContainer {
+    margin: 5px;
+    padding: 4px 5px;
+    display: inline-block;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    font-size: 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 100px;
+    height: 40%;
+    width: 100%;
+  }
+  #bottomContainer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 57%;
+    width: 100%;
+    margin: 20px;
+  }
+  .columnl {
+      border-radius: 25px;
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 100%;
+  }
+  .columnr {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 100%;
+  } */
+  .p1 {
+    margin: 20px;
+    /* border-radius: 25px;  */
+    padding: 25px;
+    padding-bottom: 50px;
+    /* color: rgb(255, 255, 255); */
+    background-image: url("../../assets/publications.png");
+    background-size: 100% 100%;
+    /* background-color: black; */
+   /* background-image: linear-gradient(to bottom, rgba(72, 73, 75, 0.952), rgb(15, 27, 68)); */
+}
+
+.p2 {
+   margin: 20px;
+   /* border-radius: 25px;  */
+   padding: 15px;
+   /* color: white; */
+   background-image: url("../../assets/publications.png");
+    background-size: cover;
+   /* background-image: linear-gradient(to bottom, rgba(56, 57, 58, 0.952), rgb(15, 27, 68)); */
+  /* background-image: linear-gradient(to bottom, rgba(13, 1, 219, 0.7), rgb(13, 1, 219)); */
+}
+  .bg {
+    /* background-image: url("../../assets/colors.jpg"); */
+    /* background-image: url("../../assets/info_page.jpg"); */
+    height: 100%;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg2 {
+    /* background-image: url("../../assets/shades.jpg"); */
+    height: 100%;
+    opacity: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .publications {
+    background-image: url("../../assets/publications.png");
+    background-size: 100% 100%;
+    padding: 20px;
+  }
+
+  .entryScreen {
+    width: 100%;
+    background-size: cover;
+    margin: 10px;
+    padding-right: 10px;
+    background-image: url("../../assets/publications.png");
+  }
+  .p1small {
+    margin: 5px;
+    padding: 5px;
+    background-image: url("../../assets/publications.png");
+    background-size: 100% 100%;
+  
+}
+
+.p2small {
+   margin: 5px;
+   padding: 5px;
+   background-image: url(../../assets/publications.png);
+   background-size: cover;
+}

@@ -1,0 +1,294 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    /* padding-top: 5px; */
+  }
+  .splitright {
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    /* padding-top: 20px; */
+  }
+  /* Control the left side */
+
+
+  .left {
+    left: 0;
+    background-color:#222831;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color:black;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  /* .centered img {
+    width: 140px;
+    border-radius: 50%;
+  } */
+  .textdisplay {
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .tab {
+    margin: 5px;
+    padding: 4px 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #28df99;
+    border-color:#28df99;
+    color: white;
+}
+
+/* .info {
+    width: 75%;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding-left: 25px;
+} */
+
+/* .extremeright {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  } */
+
+.portrait {
+    height: 85%;
+    width: 85%;
+    margin: 6px;
+    position: relative;
+    border-radius: 50%;
+}
+  /* #mainContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  #topContainer {
+    margin: 5px;
+    padding: 4px 5px;
+    display: inline-block;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    font-size: 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 100px;
+    height: 40%;
+    width: 100%;
+  }
+  #bottomContainer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 57%;
+    width: 100%;
+    margin: 20px;
+  }
+  .columnl {
+      border-radius: 25px;
+    float: left;
+    width: 70%;
+    padding: 10px;
+    height: 100%;
+  }
+  .columnr {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 100%;
+  } */
+  .bg {
+    /* background-image: url("../../assets/green_nature.jpg"); */
+    /* background-color: black; */
+    height: 100%;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg2 {
+    background-image: url("../../assets/shades.jpg");
+    height: 100%;
+    opacity: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .expDisp1 {
+    width: 28%;
+    height: 46%;
+    border-radius: 25px;
+    margin: 12px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(247, 0, 255, 0.8), rgba(247, 0, 255,1));
+  }
+
+  .expDisp2 {
+    width: 28%;
+    height: 46%;
+    border-radius: 25px;
+    margin: 12px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(192, 192, 192, 0.4), rgba(192, 192, 192,1));
+  }
+
+  .expDisp3 {
+    width: 28%;
+    height: 46%;
+    border-radius: 25px;
+    margin: 12px;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(0, 255, 0, 0.6), rgba(0, 255, 0,1));
+  }
+
+  .expDisp4 {
+    width: 28%;
+    height: 46%;
+    border-radius: 25px;
+    text-align: center;
+    margin: 12px;
+    padding: 10px;
+    float: left;
+    background-image: linear-gradient(to bottom, rgba(204, 51, 255, 0.5), rgba(204, 51, 255,1));
+  }
+  .expDisp5 {
+    width: 28%;
+    height: 46%;
+    border-radius: 25px;
+    margin: 12px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(255, 204, 0, 0.4), rgba(255, 204, 0,1));
+  }
+  .expDisp6 {
+    width: 28%;
+    height: 46%;
+    border-radius: 25px;
+    margin: 12px;
+    float: left;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 204, 255, 0.8), rgba(0, 204, 255,1));
+  }
+  .infodis {
+    font-size: 16px;
+  } */
+  
+.master {
+     margin: 18px;
+     margin-bottom: 30px;
+     border-radius: 25px; 
+     padding: 12px;
+    background-image: linear-gradient(to bottom, rgba(77, 209, 165, 0.979), rgb(52, 105, 88));
+}
+
+.bachelors {
+    margin: 18px;
+    margin-bottom: 25px;
+    border-radius: 25px; 
+    padding: 12px;
+    background-image: linear-gradient(to bottom, rgba(211, 245, 117, 0.979), rgb(92, 133, 66));
+   /* background-image: linear-gradient(to bottom, rgba(99, 248, 53, 0.70), rgb(99, 248, 53)); */
+}
+
+.courses {
+  margin: 10px 10px 10px 16px ;
+  padding: 8px;
+  border-radius: 25px; 
+  /* background-color: mediumspringgreen; */
+  width: 28%; 
+  height: 60px;
+  text-align: center;
+  float: left;
+  word-wrap: break-word;
+  background-image: url("../../assets/education.png");
+  background-size: 100% 100%;
+  /* background-image: linear-gradient(to bottom, rgba(230, 248, 232, 0.925), rgb(122, 134, 131)); */
+}
+
+.education {
+  background-image: url("../../assets/education.png");
+  background-size: 100% 100%;
+}
+
+.coursework {
+  background-image: url("../../assets/education.png");
+  background-size: 100% 100%;
+}
+
+.entryScreen {
+  width: 100%;
+  background-size: cover;
+  margin: 10px;
+  padding-right: 10px;
+  background-image: url("../../assets/education.png");
+}
+
+.mastersmall {
+  margin: 18px;
+  margin-top: 0px;
+  /* margin-bottom: 30px; */
+  border-radius: 25px; 
+  padding: 12px;
+  background-image: linear-gradient(to bottom, rgba(77, 209, 165, 0.979), rgb(52, 105, 88));
+}
+
+.bachelorssmall {
+ margin: 16px;
+ /* margin-bottom: 25px; */
+ border-radius: 25px; 
+ padding: 10px;
+ background-image: linear-gradient(to bottom, rgba(211, 245, 117, 0.979), rgb(92, 133, 66));
+/* background-image: linear-gradient(to bottom, rgba(99, 248, 53, 0.70), rgb(99, 248, 53)); */
+}
+
+.coursessmall {
+  margin: 4px ;
+  padding: 6px;
+  /* border-radius: 25px;  */
+  width: 30%; 
+  height: 54px;
+  font-size: 11px;
+  text-align: center;
+  float: left;
+  word-wrap: break-word;
+  background-image: url("../../assets/education.png");
+  background-size: 200% 400%;
+}
