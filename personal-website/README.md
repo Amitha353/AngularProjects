@@ -1,28 +1,20 @@
-# Amithawebsite
+# Amitha's Website
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+### Welcome - About Me
+![](https://github.com/Amitha353/Angular_Projects/blob/main/personal-website/screenshots/1_aboutMe.png)
 
-## Development server
+### Professional Experience
+![](https://github.com/Amitha353/Angular_Projects/blob/main/personal-website/screenshots/2_professional.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Education
+![](https://github.com/Amitha353/Angular_Projects/blob/main/personal-website/screenshots/3_education_png.PNG)
 
-## Code scaffolding
+### Machine Learning
+![](https://github.com/Amitha353/Angular_Projects/blob/main/personal-website/screenshots/4_machinelearning.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Publications
+![](https://github.com/Amitha353/Angular_Projects/blob/main/personal-website/screenshots/5_publications.png)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-"# PersonalWebsite" 
+### Mobile Device
+![](https://github.com/Amitha353/Angular_Projects/blob/main/personal-website/screenshots/Mobile_1.PNG)
+![](https://github.com/Amitha353/Angular_Projects/blob/main/personal-website/screenshots/Mobile_2.PNG)
